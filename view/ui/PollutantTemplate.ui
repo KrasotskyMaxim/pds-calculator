@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PollutanWidget</class>
+ <widget class="QWidget" name="PollutanWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="TaskFourTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>581</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Control Gate Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Canalization Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Pollutant Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Control Gate BC</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PDK</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>KNK</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="TaskFiveTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>570</y>
+     <width>581</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Pollutant name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Control Gate BC</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Canalization BC</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PDK</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PDS</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="PollutantCompanyLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>510</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Company:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="PollutantCompanyComboBox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>510</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PolluatntDateLabel">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>540</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Date:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="PollutantDateComboBox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>540</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="TaskThreeTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>581</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Canalization Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Pollutant Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Canalization BC</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="AddPollutantPushButton">
+   <property name="geometry">
+    <rect>
+     <x>468</x>
+     <y>510</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Pollutant</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ShowPollutantPushButton">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>540</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Show</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PollutantAddDatePushButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>540</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PollutantBackPushButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>540</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
