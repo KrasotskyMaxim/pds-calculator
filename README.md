@@ -1,1 +1,1 @@
-This is a desktop app for calculating PRS of your company
+This is a desktop app for calculating PDS of your company
